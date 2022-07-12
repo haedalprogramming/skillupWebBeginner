@@ -20,8 +20,7 @@ h2 {
     color: #fff;
     padding: .5rem 1rem;
     /* 제목을 스크롤에 맞춰 따라오도록 하여 가장 위쪽에 고정시킵니다. */
-    position: sticky;
-    top: 0;
+
 }
 .post {
     margin-bottom: 3rem;

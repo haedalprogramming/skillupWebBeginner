@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem 4rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 3rem;
+    transition: transform .5s;
+}
+
+.transform1:hover {
+    /* 가로 방향으로 1.5배 늘린다. */
+    
+}
+.transform2:hover {
+    /* 세로 방향으로 0.5배 줄인다. */
+    
+}
+.transform3:hover {
+    /* 가로 방향으로 1.5배 늘리고, 세로 방향으로 0.5배 줄인다. */
+    
+}

@@ -1,59 +1,54 @@
 /* 태그 선택자 */
-body {
-    width: 70%;
-    margin: auto;
-}
+
 
 div {
     /* 태그의 테두리를 설정하는 속성입니다. */
-    border: 1px solid black;
+    
 }
 li {
-    color: violet;
+    
 }
 
 
 /* class 선택자 (.을 빼먹지 않도록 주의합니다) */
 .container {
     /* width와 height 속성은 각각 가로 길이, 세로 길이를 의미합니다. */
-    width: 200px;
-    height: 500px;
-    margin: 20px auto;
-    border: 1px dashed rgb(150, 71, 223);
+    
     /* 텍스트의 정렬을 의미합니다. */
-    text-align: center;
+    
     /* 그라데이션 효과를 줍니다. */
-    background-image: linear-gradient(#238ccc, #c5e5ee);
+    /* #238ccc, #c5e5ee */
+    
     color: white;
     padding: 7rem 0;
 }
 
 .lists {
     /* 글자 색상을 의미합니다. */
-    color:rgb(252, 138, 57);
+    
 	/* 글자 크기를 의미합니다. */
-    font-size: 20px;
+    
     /* 글꼴 종류를 의미합니다. */
     font-family: 나눔고딕,NanumGothic,돋움,Dotum;
     /* 글꼴의 두께로, 미리 정의된 단어나 100 ~ 900 사이의 숫자를 통해 설정합니다.기본값은 normal 입니다. */
-    font-weight: bold;
+    
 }
 
 /* id 선택자(#을 빼먹지 않도록 주의합니다) */
 #first-list{
-    color: red;
+    
 }
 
 .item {
     /* margin과 padding 속성은 각각 바깥쪽 여백, 안쪽 여백을 의미합니다. */
-    margin: 200px;
-    padding: 100px;
+    
     border: 1px solid gray;
 }
 
 .btn {
     /* background 속성은 태그의 배경을 지정합니다. */
-    background-color: rgb(198, 138, 255);
+    /* rgb(198, 138, 255) */
+    
 }
 
 .box{
@@ -65,13 +60,12 @@ li {
 }
 .box1{
     /* border-radius 속성은 요소의 테두리를 둥글게 만들어줍니다. */
-    border-radius: 20px;
+    
 }
 .box2{
-    width: 50px;
-    border-radius: 50%;
+    
 }
 .box3{
     /* 4개의 모서리를 각각 다른 값으로도 줄 수 있습니다. (상 우 하 좌) */
-    border-radius: 20px 0 10px 50px;
+    
 }
